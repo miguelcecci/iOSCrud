@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B64761A5576DAC689A2C591 /* Pods_BasiCrudIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13F658EA162863D005634C9 /* Pods_BasiCrudIOS.framework */; };
+		367F90EA5A85E456AA82ECA8 /* Pods_BasiCrudIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E9DBE5A73CC0BCC4C66D29 /* Pods_BasiCrudIOSUITests.framework */; };
 		8B68718D22442B4200860B9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B68718C22442B4200860B9E /* AppDelegate.swift */; };
 		8B68718F22442B4200860B9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B68718E22442B4200860B9E /* ViewController.swift */; };
 		8B68719222442B4200860B9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B68719022442B4200860B9E /* Main.storyboard */; };
@@ -14,6 +16,11 @@
 		8B68719722442B4400860B9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B68719522442B4400860B9E /* LaunchScreen.storyboard */; };
 		8B6871A222442B4400860B9E /* BasiCrudIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6871A122442B4400860B9E /* BasiCrudIOSTests.swift */; };
 		8B6871AD22442B4400860B9E /* BasiCrudIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6871AC22442B4400860B9E /* BasiCrudIOSUITests.swift */; };
+		8B6871BD224436D400860B9E /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6871BC224436D400860B9E /* Tool.swift */; };
+		8B6871BF22443A5600860B9E /* CreateToolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6871BE22443A5600860B9E /* CreateToolViewController.swift */; };
+		8B6871C32244571400860B9E /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6871C22244571400860B9E /* AppConfiguration.swift */; };
+		8B6871C522445DD700860B9E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6871C422445DD700860B9E /* MainViewController.swift */; };
+		F99232D5A898DFC914FA2749 /* Pods_BasiCrudIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882EFAB70CA6F8AE458D11E7 /* Pods_BasiCrudIOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00E9DBE5A73CC0BCC4C66D29 /* Pods_BasiCrudIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BasiCrudIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F7F468A95FF9DAC29340224 /* Pods-BasiCrudIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasiCrudIOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BasiCrudIOSUITests/Pods-BasiCrudIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		33DBA8514A2D24CAD16BC3C4 /* Pods-BasiCrudIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasiCrudIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BasiCrudIOS/Pods-BasiCrudIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		5F82AF21E6D07B372EC0D4C3 /* Pods-BasiCrudIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasiCrudIOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BasiCrudIOSTests/Pods-BasiCrudIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		67FF62A574F43568FF27C8C3 /* Pods-BasiCrudIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasiCrudIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-BasiCrudIOS/Pods-BasiCrudIOS.release.xcconfig"; sourceTree = "<group>"; };
+		882EFAB70CA6F8AE458D11E7 /* Pods_BasiCrudIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BasiCrudIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B68718922442B4200860B9E /* BasiCrudIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasiCrudIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B68718C22442B4200860B9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B68718E22442B4200860B9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,13 @@
 		8B6871A822442B4400860B9E /* BasiCrudIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasiCrudIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B6871AC22442B4400860B9E /* BasiCrudIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasiCrudIOSUITests.swift; sourceTree = "<group>"; };
 		8B6871AE22442B4400860B9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B6871BC224436D400860B9E /* Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
+		8B6871BE22443A5600860B9E /* CreateToolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateToolViewController.swift; sourceTree = "<group>"; };
+		8B6871C22244571400860B9E /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		8B6871C422445DD700860B9E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C13F658EA162863D005634C9 /* Pods_BasiCrudIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BasiCrudIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D56DCA3D768E42759EC715B1 /* Pods-BasiCrudIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasiCrudIOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BasiCrudIOSUITests/Pods-BasiCrudIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ED2D8B9CE17DFC5A9EA8ED2D /* Pods-BasiCrudIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasiCrudIOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BasiCrudIOSTests/Pods-BasiCrudIOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B64761A5576DAC689A2C591 /* Pods_BasiCrudIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F99232D5A898DFC914FA2749 /* Pods_BasiCrudIOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				367F90EA5A85E456AA82ECA8 /* Pods_BasiCrudIOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B6B2A9F67C6297D9667574A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33DBA8514A2D24CAD16BC3C4 /* Pods-BasiCrudIOS.debug.xcconfig */,
+				67FF62A574F43568FF27C8C3 /* Pods-BasiCrudIOS.release.xcconfig */,
+				5F82AF21E6D07B372EC0D4C3 /* Pods-BasiCrudIOSTests.debug.xcconfig */,
+				ED2D8B9CE17DFC5A9EA8ED2D /* Pods-BasiCrudIOSTests.release.xcconfig */,
+				2F7F468A95FF9DAC29340224 /* Pods-BasiCrudIOSUITests.debug.xcconfig */,
+				D56DCA3D768E42759EC715B1 /* Pods-BasiCrudIOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6ABB8509CB3CA808303ED349 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C13F658EA162863D005634C9 /* Pods_BasiCrudIOS.framework */,
+				882EFAB70CA6F8AE458D11E7 /* Pods_BasiCrudIOSTests.framework */,
+				00E9DBE5A73CC0BCC4C66D29 /* Pods_BasiCrudIOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8B68718022442B4200860B9E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +127,8 @@
 				8B6871A022442B4400860B9E /* BasiCrudIOSTests */,
 				8B6871AB22442B4400860B9E /* BasiCrudIOSUITests */,
 				8B68718A22442B4200860B9E /* Products */,
+				2B6B2A9F67C6297D9667574A /* Pods */,
+				6ABB8509CB3CA808303ED349 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +147,10 @@
 			children = (
 				8B68718C22442B4200860B9E /* AppDelegate.swift */,
 				8B68718E22442B4200860B9E /* ViewController.swift */,
+				8B6871BB2244363900860B9E /* viewcontrollers */,
+				8B6871BA2244361400860B9E /* models */,
 				8B68719022442B4200860B9E /* Main.storyboard */,
+				8B6871C22244571400860B9E /* AppConfiguration.swift */,
 				8B68719322442B4400860B9E /* Assets.xcassets */,
 				8B68719522442B4400860B9E /* LaunchScreen.storyboard */,
 				8B68719822442B4400860B9E /* Info.plist */,
@@ -125,6 +176,23 @@
 			path = BasiCrudIOSUITests;
 			sourceTree = "<group>";
 		};
+		8B6871BA2244361400860B9E /* models */ = {
+			isa = PBXGroup;
+			children = (
+				8B6871BC224436D400860B9E /* Tool.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		8B6871BB2244363900860B9E /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				8B6871BE22443A5600860B9E /* CreateToolViewController.swift */,
+				8B6871C422445DD700860B9E /* MainViewController.swift */,
+			);
+			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B6871B122442B4400860B9E /* Build configuration list for PBXNativeTarget "BasiCrudIOS" */;
 			buildPhases = (
+				86AA79FB871B81F165E44492 /* [CP] Check Pods Manifest.lock */,
 				8B68718522442B4200860B9E /* Sources */,
 				8B68718622442B4200860B9E /* Frameworks */,
 				8B68718722442B4200860B9E /* Resources */,
+				6A2C287154E8A92E77A9ADE8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B6871B422442B4400860B9E /* Build configuration list for PBXNativeTarget "BasiCrudIOSTests" */;
 			buildPhases = (
+				1F0BBFB2F584F17F8440FA35 /* [CP] Check Pods Manifest.lock */,
 				8B68719922442B4400860B9E /* Sources */,
 				8B68719A22442B4400860B9E /* Frameworks */,
 				8B68719B22442B4400860B9E /* Resources */,
@@ -167,6 +238,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B6871B722442B4400860B9E /* Build configuration list for PBXNativeTarget "BasiCrudIOSUITests" */;
 			buildPhases = (
+				D26BE3B68A15303E317E597F /* [CP] Check Pods Manifest.lock */,
 				8B6871A422442B4400860B9E /* Sources */,
 				8B6871A522442B4400860B9E /* Frameworks */,
 				8B6871A622442B4400860B9E /* Resources */,
@@ -251,12 +323,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F0BBFB2F584F17F8440FA35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BasiCrudIOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A2C287154E8A92E77A9ADE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BasiCrudIOS/Pods-BasiCrudIOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BasiCrudIOS/Pods-BasiCrudIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86AA79FB871B81F165E44492 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BasiCrudIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D26BE3B68A15303E317E597F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BasiCrudIOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8B68718522442B4200860B9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B6871BD224436D400860B9E /* Tool.swift in Sources */,
+				8B6871C32244571400860B9E /* AppConfiguration.swift in Sources */,
 				8B68718F22442B4200860B9E /* ViewController.swift in Sources */,
+				8B6871C522445DD700860B9E /* MainViewController.swift in Sources */,
+				8B6871BF22443A5600860B9E /* CreateToolViewController.swift in Sources */,
 				8B68718D22442B4200860B9E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +597,7 @@
 		};
 		8B6871B222442B4400860B9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33DBA8514A2D24CAD16BC3C4 /* Pods-BasiCrudIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +616,7 @@
 		};
 		8B6871B322442B4400860B9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67FF62A574F43568FF27C8C3 /* Pods-BasiCrudIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +635,7 @@
 		};
 		8B6871B522442B4400860B9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F82AF21E6D07B372EC0D4C3 /* Pods-BasiCrudIOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +657,7 @@
 		};
 		8B6871B622442B4400860B9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED2D8B9CE17DFC5A9EA8ED2D /* Pods-BasiCrudIOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +679,7 @@
 		};
 		8B6871B822442B4400860B9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F7F468A95FF9DAC29340224 /* Pods-BasiCrudIOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +700,7 @@
 		};
 		8B6871B922442B4400860B9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D56DCA3D768E42759EC715B1 /* Pods-BasiCrudIOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

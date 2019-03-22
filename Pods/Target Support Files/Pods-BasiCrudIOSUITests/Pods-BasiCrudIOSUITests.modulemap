@@ -1,0 +1,6 @@
+framework module Pods_BasiCrudIOSUITests {
+  umbrella header "Pods-BasiCrudIOSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
