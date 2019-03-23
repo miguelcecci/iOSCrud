@@ -31,6 +31,10 @@ class CreateToolViewController: UIViewController {
             parameters).responseString{response in
                 print(response)
         }
-        
+        dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func backToPreviousScreen(){
+        dismiss(animated: true, completion: nil)
     }
 }

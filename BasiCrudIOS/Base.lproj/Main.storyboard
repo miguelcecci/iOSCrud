@@ -108,6 +108,9 @@
                                 <state key="normal" title="Return">
                                     <color key="titleColor" red="0.74083144430000003" green="0.22913662339999999" blue="0.1504555803" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="backToPreviousScreen" destination="7jJ-Tv-uO8" eventType="touchUpInside" id="hRx-DR-jq8"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
